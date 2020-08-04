@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../7.15课堂/bs/css/bootstrap.min.css">
+</head>
+<style>
+    
+.ddd{
+    width: 200px;
+}
+.xx{
+    width: 300px;
+    /* margin: 0 auto ; */
+}
+</style>
+<body>
+    <div class="container">
+        <ul class="nav nav-tabs">
+          <li class="active"><a data-toggle="tab" href="#home">娱乐</a></li>
+          <li><a data-toggle="tab" href="#menu1">头条</a></li>
+          <li><a data-toggle="tab" href="#menu2">体育</a></li>
+          <li><a data-toggle="tab" href="#menu3">本地</a></li>
+        </ul>
+        <div class="tab-content">
+            <div id="home" class="tab-pane fade in active">
+             <ul>
+                 <li>周一是绿色的</li>
+                 <li>周一是绿色的</li>
+                 <li>周一是绿色的</li>
+                 <li>周一是绿色的</li>
+                 <li>周一是绿色的</li>
+                 <li>周一是绿色的</li>
+             </ul>
+            </div>
+            <div id="menu1" class="tab-pane fade">
+             <ul>
+                 <li>周二是黄色的</li>
+                 <li>周二是黄色的</li>
+                 <li>周二是黄色的</li>
+                 <li>周二是黄色的</li>
+                 <li>周二是黄色的</li>
+                 <li>周二是黄色的</li>
+
+             </ul>
+            </div>
+            <div id="menu2" class="tab-pane fade">
+                <ul>
+                    <li style="background-color: green;"><a href="">周一是黄色的</a></li>
+                    <li style="background-color: pink;"><a href="">周一是黄色的</a></li>
+                    <li style="background-color: blue;"><a href="">周一是黄色的</a></li>
+                    <li style="background-color: yellow;"><a href="">周一是黄色的</a></li>
+                </ul>
+            </div>
+            <div id="menu3" class="tab-pane fade">
+                <ul>
+                    <li>周二是黄色的</li>
+                    <li>周二是黄色的</li>
+                    <li>周二是黄色的</li>
+                    <li>周二是黄色的</li>
+                    <li>周二是黄色的</li>
+                    <li>周二是黄色的</li>
+   
+                </ul>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+            <div class="row">
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default xx">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" 
+                           href="#collapseOne">
+                           我的好友
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in">
+                   
+                        <ul class="list-group">
+                            <li class="list-group-item"><span class="glyphicon glyphicon-user" style="color: rgb(0, 0, 0);"> </span>刘德华</li>
+                            <li class="list-group-item"><span class="glyphicon glyphicon-user" style="color: rgb(0, 0, 0);"> </span>吴彦祖</li>
+                            <li class="list-group-item"><span class="glyphicon glyphicon-user" style="color: rgb(0, 0, 0);"> </span>彭于晏<span class="badge">18</span></li>
+                        
+                        </ul>
+                    
+                </div>
+            </div>
+            <div class="panel panel-default xx" >
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" 
+                           href="#collapseTwo">
+                           我的女友
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse">
+                   
+                    <ul class="list-group">
+                        <li class="list-group-item"><span class="glyphicon glyphicon-user" style="color: rgb(0, 0, 0);"> </span>高圆圆</li>
+                        <li class="list-group-item"><span class="glyphicon glyphicon-user" style="color: rgb(0, 0, 0);"> </span>周冬雨</li>
+                        <li class="list-group-item"><span class="glyphicon glyphicon-user" style="color: rgb(0, 0, 0);"> </span>李小璐</li>
+                    
+                    </ul>
+                
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="../7.15课堂/bs/js/jquery.js"></script>
+<script src="../7.15课堂/bs/js/bootstrap.min.js"></script>
+</html>
